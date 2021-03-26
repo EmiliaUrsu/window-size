@@ -1,0 +1,22 @@
+<script>
+ 
+
+ const BREAK_POINT_1 = 560
+ const BREAK_POINT_2 = 980
+ const BREAK_POINT_3 = 1200
+
+ let windowWidth = innerWidth
+
+ if( windowWidth <= BREAK_POINT_1){
+      alert(" Window size -  Extra small! ")
+ } else if( windowWidth >= BREAK_POINT_1 && windowWidth <= BREAK_POINT_2) {
+      alert (" Window size - Small !")
+ } else if ( windowWidth >= BREAK_POINT_2 && windowWidth <= BREAK_POINT_3){
+      alert("Window size - Medium !")
+ } else if ( windowWidth >= BREAK_POINT_3){
+     alert (" Window size - Large ")
+ }
+else {
+     alert(" Error size")
+}
+</script>
